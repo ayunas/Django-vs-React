@@ -18,6 +18,10 @@ button {
     margin: 10px;
 }
 
+button:hover {
+    border : 5 px solid darkgreen;
+}
+
 section img {
     display: block;
 }
