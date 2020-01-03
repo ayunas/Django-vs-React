@@ -12,7 +12,7 @@ class Files(models.Model):
     framework = models.CharField(max_length=72)
     name = models.CharField(max_length=72)
     is_file = models.BooleanField()
-    parent_id = models.IntegerField(blank=True)
+    parent_id = models.IntegerField(null=True)
 
     def __str__(self):
         return self.file
