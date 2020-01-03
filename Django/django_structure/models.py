@@ -9,9 +9,9 @@ class Django_Structure(models.Model):
         return self.title
 
 class Files(models.Model):
-    framework = models.CharField()
-    folder = models.CharField()
-    file = models.CharField() 
+    framework = models.CharField(max_length=72)
+    folder = models.CharField(max_length=72)
+    file = models.CharField(max_length=72)
 
     def __str__(self):
         return self.file
