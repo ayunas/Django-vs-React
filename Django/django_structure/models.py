@@ -10,8 +10,9 @@ class Django_Structure(models.Model):
 
 class Files(models.Model):
     framework = models.CharField(max_length=72)
-    folder = models.CharField(max_length=72)
-    file = models.CharField(max_length=72)
+    name = models.CharField(max_length=72)
+    is_file = models.BooleanField()
+    parent_id = models.IntegerField(blank=True)
 
     def __str__(self):
         return self.file
