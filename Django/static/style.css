@@ -1,0 +1,22 @@
+body {
+    background-color : powderblue;
+}
+
+main {
+    text-align: center;
+    color : green;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+
+button {
+    margin: 10px;
+}
+
+
+
+

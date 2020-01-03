@@ -20,6 +20,6 @@ from django_structure import views
 
 urlpatterns = [
     path("files/", views.files_page, name="files"),
-    path("", views.home_page, name="home"),
+    path("", views.index, name="home"),
     path('admin/', admin.site.urls),
 ]

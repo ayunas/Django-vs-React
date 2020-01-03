@@ -1,11 +1,17 @@
 from django.shortcuts import render
-from .models import Files
+from .models import File
+# import .models
 
-def home_page(request, *args, **kwargs):
+def index(request, *args, **kwargs):
     print(args, kwargs)
-    return render(request, "home.html", {})
+    return render(request, "index.html", {})
     
 def files_page(request):
-    allFiles = Files.objects.all()
-    print(allFiles)
+    # allFiles = File.objects.all()
+    filteredfiles = File.objects.filter(parent_id = 1)
+    print(filteredfiles)
     return render(request, "files.html", {})
+
+
+# def index(request):
+#     context = RequestContext(request)
