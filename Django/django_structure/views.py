@@ -4,13 +4,14 @@ from .models import File
 
 def index(request, *args, **kwargs):
     print(args, kwargs)
-    return render(request, "index.html", {})
+    return render(request, "index.html", {'path': request.path})
     
 def files_page(request):
-    # allFiles = File.objects.all()
-    filteredfiles = File.objects.filter(parent_id = 1)
-    print(filteredfiles)
-    return render(request, "files.html", {})
+    print("request", request.path)
+    options = {
+        'django': "django" in request.path
+    }
+    return render(request, "files.html", options)
 
 
 # def index(request):

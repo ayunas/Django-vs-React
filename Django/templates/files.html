@@ -1,1 +1,10 @@
-<h2>Testing</h2>
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+{% if django %}
+<img src="{% static 'media/Django-Structure.png' %}" alt="django files" style="width:30%;border-radius: 5px;box-shadow:0 0 5px black;">
+{% else %}
+<img src="{% static 'media/React-Structure.png' %}" alt="react files" style="width:30%;border-radius: 5px;box-shadow:0 0 5px black;">
+{% endif %}
+{% endblock content %}

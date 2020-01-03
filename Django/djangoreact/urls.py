@@ -19,7 +19,8 @@ from django.urls import path
 from django_structure import views
 
 urlpatterns = [
-    path("files/", views.files_page, name="files"),
+    path("react/", views.files_page, name="files"),
+    path("django/", views.files_page, name="files"),
     path("", views.index, name="home"),
     path('admin/', admin.site.urls),
     # path(r'^media/(?P<path>.*)$', 'django.views.static.serve'),{'document_root': settings.MEDIA_ROOT}
