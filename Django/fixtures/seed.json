@@ -1,0 +1,112 @@
+[
+    {
+        "model": "django_structure.Files",
+        "pk": 1,
+        "fields": {
+            "framework": "django",
+            "name": "Django",
+            "is_file": false,
+            "parent_id": null
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 2,
+        "fields": {
+            "framework": "django",
+            "name": "django_structure",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 3,
+        "fields": {
+            "framework": "django",
+            "name": "djangoreact",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 4,
+        "fields": {
+            "framework": "django",
+            "name": "fixtures",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 5,
+        "fields": {
+            "framework": "django",
+            "name": "react_node_structure",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 6,
+        "fields": {
+            "framework": "django",
+            "name": "templates",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 7,
+        "fields": {
+            "framework": "django",
+            "name": "db.sqlite3",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 7,
+        "fields": {
+            "framework": "django",
+            "name": "manage.py",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 8,
+        "fields": {
+            "framework": "django",
+            "name": "Pipfile",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 9,
+        "fields": {
+            "framework": "django",
+            "name": "Pipfile.lock",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.Files",
+        "pk": 10,
+        "fields": {
+            "framework": "django",
+            "name": "README.md",
+            "is_file": true,
+            "parent_id": 1
+        }
+    }
+]
