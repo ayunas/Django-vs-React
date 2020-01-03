@@ -15,4 +15,4 @@ class Files(models.Model):
     parent_id = models.IntegerField(null=True)
 
     def __str__(self):
-        return self.file
+        return self.name
