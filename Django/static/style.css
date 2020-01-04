@@ -1,11 +1,11 @@
 body {
-    background-color : powderblue;
+    background-color :#61DAFB;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main {
     text-align: center;
-    color : darkgreen;
+    color : #0F3E2D;
 }
 
 #choices {
@@ -16,14 +16,37 @@ main {
 
 button {
     margin: 10px;
+    border-radius: 30px;
+    background-color: #0F3E2D;
+}
+
+button:active {
+    outline : none;
+    cursor: pointer;
 }
 
 button:hover {
-    border : 5 px solid darkgreen;
+    opacity: 80%;
+    transition: .3s;
+}
+
+#react {
+    background-color: white;
+    border: 5px solid #0F3E2D;
+}
+
+#django {
+    border: 5px solid black;
+}
+
+button:hover {
+    border : 5 px solid #0F3E2D;
 }
 
 section img {
     display: block;
+    border-radius: 40px;
+
 }
 
 

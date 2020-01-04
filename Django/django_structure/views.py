@@ -4,13 +4,15 @@ from .models import File
 
 def index(request, *args, **kwargs):
     print(args, kwargs)
-    return render(request, "index.html", {})
+    # filteredfiles = File.objects.filter()
+    data = File.objects.all()
+    return render(request, "index.html", {'data' : data})
     
 def files_page(request):
     # allFiles = File.objects.all()
     filteredfiles = File.objects.filter(parent_id = 1)
-    print(filteredfiles)
-    return render(request, "files.html", {})
+    print('type of filtered files', filteredfiles)
+    return render(request, "files.html", {'filteredfiles': filteredfiles})
 
 
 # def index(request):

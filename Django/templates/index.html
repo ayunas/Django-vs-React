@@ -14,13 +14,12 @@
     <main>
         <h1>Django VS React/Node</h1>
         <h3>Choose your framework</h3>
-
         <div id="choices">
             <section class="framework">
                 <!-- <img src="{{ MEDIA_URL }}django-logo-negative.png" alt="django" > -->
                 <!-- "{% static '/media/react_node_logo_png' %}" -->
                 <!-- <img src="smiley.gif" alt="Smiley face" height="42" width="42"> -->
-                <button>
+                <button id="django">
                     <img src="{% static 'media/django-logo-negative.png' %}" alt="django" width=200 height=100>
                 </button>
             </section>
@@ -29,10 +28,16 @@
                 <!-- <img src="{{ MEDIA_URL }}react_node_logo_png" alt="react/node" > -->
                 <!-- <img src="{% static 'media/react_node_logo_png' %}" alt="react/node" > -->
                 <!-- <img src="../static/media/react_node_logo_png" alt="react/node" > -->
-                <button>
+                <button id="react">
                     <img src="{% static 'media/react_node_logo.png' %}" alt="react/node" width=150 height=100>
                 </button>
             </section>
+            <!-- {%for file in files%}
+                <p>{{file.name}}</p>
+            {% endfor %} -->
+            <!-- {% for d in data%}
+            <p>{{d}}</p>
+            {% endfor %} -->
         </div>
 
         </section>
