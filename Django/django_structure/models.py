@@ -7,3 +7,12 @@ class Django_Structure(models.Model):
 
     def __str__(self):
         return self.title
+
+class File(models.Model):
+    framework = models.CharField(max_length=72)
+    name = models.CharField(max_length=72)
+    is_file = models.BooleanField()
+    parent_id = models.IntegerField(null=True)
+
+    def __str__(self):
+        return self.name

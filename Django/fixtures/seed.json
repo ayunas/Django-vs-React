@@ -1,0 +1,802 @@
+[
+    {
+        "model": "django_structure.File",
+        "pk": 1,
+        "fields": {
+            "framework": "django",
+            "name": "Django",
+            "is_file": false,
+            "parent_id": null
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 2,
+        "fields": {
+            "framework": "django",
+            "name": "django_structure",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 3,
+        "fields": {
+            "framework": "django",
+            "name": "djangoreact",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 4,
+        "fields": {
+            "framework": "django",
+            "name": "fixtures",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 5,
+        "fields": {
+            "framework": "django",
+            "name": "react_node_structure",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 6,
+        "fields": {
+            "framework": "django",
+            "name": "templates",
+            "is_file": false,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 7,
+        "fields": {
+            "framework": "django",
+            "name": "db.sqlite3",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 8,
+        "fields": {
+            "framework": "django",
+            "name": "manage.py",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 9,
+        "fields": {
+            "framework": "django",
+            "name": "Pipfile",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 10,
+        "fields": {
+            "framework": "django",
+            "name": "Pipfile.lock",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 11,
+        "fields": {
+            "framework": "django",
+            "name": "README.md",
+            "is_file": true,
+            "parent_id": 1
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 12,
+        "fields": {
+            "framework": "django",
+            "name": "__pycache__",
+            "is_file": false,
+            "parent_id": 2
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 13,
+        "fields": {
+            "framework": "django",
+            "name": "migrations",
+            "is_file": false,
+            "parent_id": 2
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 14,
+        "fields": {
+            "framework": "django",
+            "name": "__init__.py",
+            "is_file": true,
+            "parent_id": 2
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 15,
+        "fields": {
+            "framework": "django",
+            "name": "admin.py",
+            "is_file": true,
+            "parent_id": 2
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 16,
+        "fields": {
+            "framework": "django",
+            "name": "apps.py",
+            "is_file": true,
+            "parent_id": 2
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 17,
+        "fields": {
+            "framework": "django",
+            "name": "models.py",
+            "is_file": true,
+            "parent_id": 2
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 18,
+        "fields": {
+            "framework": "django",
+            "name": "tests.py",
+            "is_file": true,
+            "parent_id": 2
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 19,
+        "fields": {
+            "framework": "django",
+            "name": "views.py",
+            "is_file": true,
+            "parent_id": 2
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 20,
+        "fields": {
+            "framework": "django",
+            "name": "__init__.cpython-37.pyc",
+            "is_file": true,
+            "parent_id": 12
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 21,
+        "fields": {
+            "framework": "django",
+            "name": "admin.cpython-37.pyc",
+            "is_file": true,
+            "parent_id": 12
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 22,
+        "fields": {
+            "framework": "django",
+            "name": "models.cpython-37.pyc",
+            "is_file": true,
+            "parent_id": 12
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 23,
+        "fields": {
+            "framework": "django",
+            "name": "models.cpython-37.pyc",
+            "is_file": true,
+            "parent_id": 12
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 24,
+        "fields": {
+            "framework": "django",
+            "name": "__init__.py",
+            "is_file": true,
+            "parent_id": 13
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 25,
+        "fields": {
+            "framework": "django",
+            "name": "0001_initial.py",
+            "is_file": true,
+            "parent_id": 13
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 26,
+        "fields": {
+            "framework": "django",
+            "name": "0002_auto_20200103_0840.py",
+            "is_file": true,
+            "parent_id": 13
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 27,
+        "fields": {
+            "framework": "django",
+            "name": "0003_auto_20200103_0902.py",
+            "is_file": true,
+            "parent_id": 13
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 28,
+        "fields": {
+            "framework": "django",
+            "name": "__pycache__",
+            "is_file": false,
+            "parent_id": 3
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 29,
+        "fields": {
+            "framework": "django",
+            "name": "__init__.py",
+            "is_file": true,
+            "parent_id": 3
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 30,
+        "fields": {
+            "framework": "django",
+            "name": "asgi.py",
+            "is_file": true,
+            "parent_id": 3
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 31,
+        "fields": {
+            "framework": "django",
+            "name": "settings.py",
+            "is_file": true,
+            "parent_id": 3
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 32,
+        "fields": {
+            "framework": "django",
+            "name": "urls.py",
+            "is_file": true,
+            "parent_id": 3
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 33,
+        "fields": {
+            "framework": "django",
+            "name": "wsgi.py",
+            "is_file": true,
+            "parent_id": 3
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 34,
+        "fields": {
+            "framework": "django",
+            "name": "seed.json",
+            "is_file": true,
+            "parent_id": 4
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 35,
+        "fields": {
+            "framework": "django",
+            "name": "migrations",
+            "is_file": false,
+            "parent_id": 5
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 36,
+        "fields": {
+            "framework": "django",
+            "name": "__init__.py",
+            "is_file": true,
+            "parent_id": 5
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 37,
+        "fields": {
+            "framework": "django",
+            "name": "admin.py",
+            "is_file": true,
+            "parent_id": 5
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 38,
+        "fields": {
+            "framework": "django",
+            "name": "apps.py",
+            "is_file": true,
+            "parent_id": 5
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 39,
+        "fields": {
+            "framework": "django",
+            "name": "models.py",
+            "is_file": true,
+            "parent_id": 5
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 40,
+        "fields": {
+            "framework": "django",
+            "name": "tests.py",
+            "is_file": true,
+            "parent_id": 5
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 41,
+        "fields": {
+            "framework": "django",
+            "name": "views.py",
+            "is_file": true,
+            "parent_id": 5
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 42,
+        "fields": {
+            "framework": "django",
+            "name": "__init__.py",
+            "is_file": true,
+            "parent_id": 35
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 43,
+        "fields": {
+            "framework": "django",
+            "name": "home.html",
+            "is_file": true,
+            "parent_id": 6
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 44,
+        "fields": {
+            "framework": "django",
+            "name": "file.html",
+            "is_file": true,
+            "parent_id": 6
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 45,
+        "fields": {
+            "framework": "react-node",
+            "name": "React-Node",
+            "is_file": false,
+            "parent_id": null
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 46,
+        "fields": {
+            "framework": "react-node",
+            "name": "node",
+            "is_file": false,
+            "parent_id": 45
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 47,
+        "fields": {
+            "framework": "react-node",
+            "name": "data",
+            "is_file": false,
+            "parent_id": 46
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 48,
+        "fields": {
+            "framework": "react-node",
+            "name": "node_modules",
+            "is_file": false,
+            "parent_id": 46
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 49,
+        "fields": {
+            "framework": "react-node",
+            "name": "dev.sqlite3",
+            "is_file": true,
+            "parent_id": 46
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 50,
+        "fields": {
+            "framework": "react-node",
+            "name": "index.js",
+            "is_file": true,
+            "parent_id": 46
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 51,
+        "fields": {
+            "framework": "react-node",
+            "name": "knexfile.js",
+            "is_file": true,
+            "parent_id": 46
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 52,
+        "fields": {
+            "framework": "react-node",
+            "name": "package-lock.json",
+            "is_file": true,
+            "parent_id": 46
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 53,
+        "fields": {
+            "framework": "react-node",
+            "name": "package.json",
+            "is_file": true,
+            "parent_id": 46
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 54,
+        "fields": {
+            "framework": "react-node",
+            "name": "server.js",
+            "is_file": true,
+            "parent_id": 46
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 55,
+        "fields": {
+            "framework": "react-node",
+            "name": "migrations",
+            "is_file": false,
+            "parent_id": 47
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 56,
+        "fields": {
+            "framework": "react-node",
+            "name": "seeds",
+            "is_file": false,
+            "parent_id": 47
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 57,
+        "fields": {
+            "framework": "react-node",
+            "name": "20200103073731_init.js",
+            "is_file": true,
+            "parent_id": 55
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 58,
+        "fields": {
+            "framework": "react-node",
+            "name": "0001_File.js",
+            "is_file": true,
+            "parent_id": 56
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 59,
+        "fields": {
+            "framework": "react-node",
+            "name": "reactapp",
+            "is_file": false,
+            "parent_id": 45
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 60,
+        "fields": {
+            "framework": "react-node",
+            "name": "public",
+            "is_file": false,
+            "parent_id": 59
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 61,
+        "fields": {
+            "framework": "react-node",
+            "name": "src",
+            "is_file": false,
+            "parent_id": 59
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 62,
+        "fields": {
+            "framework": "react-node",
+            "name": ".gitignore",
+            "is_file": true,
+            "parent_id": 59
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 63,
+        "fields": {
+            "framework": "react-node",
+            "name": "package.json",
+            "is_file": true,
+            "parent_id": 59
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 64,
+        "fields": {
+            "framework": "react-node",
+            "name": "README.md",
+            "is_file": true,
+            "parent_id": 59
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 65,
+        "fields": {
+            "framework": "react-node",
+            "name": "yarn.lock",
+            "is_file": true,
+            "parent_id": 59
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 66,
+        "fields": {
+            "framework": "react-node",
+            "name": "favicon.ico",
+            "is_file": true,
+            "parent_id": 60
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 67,
+        "fields": {
+            "framework": "react-node",
+            "name": "index.html",
+            "is_file": true,
+            "parent_id": 60
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 68,
+        "fields": {
+            "framework": "react-node",
+            "name": "logo192.png",
+            "is_file": true,
+            "parent_id": 60
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 69,
+        "fields": {
+            "framework": "react-node",
+            "name": "logo512.png",
+            "is_file": true,
+            "parent_id": 60
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 70,
+        "fields": {
+            "framework": "react-node",
+            "name": "manifest.json",
+            "is_file": true,
+            "parent_id": 60
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 71,
+        "fields": {
+            "framework": "react-node",
+            "name": "robots.txt",
+            "is_file": true,
+            "parent_id": 60
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 72,
+        "fields": {
+            "framework": "react-node",
+            "name": "components",
+            "is_file": false,
+            "parent_id": 61
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 73,
+        "fields": {
+            "framework": "react-node",
+            "name": "App.css",
+            "is_file": true,
+            "parent_id": 61
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 74,
+        "fields": {
+            "framework": "react-node",
+            "name": "App.js",
+            "is_file": true,
+            "parent_id": 61
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 75,
+        "fields": {
+            "framework": "react-node",
+            "name": "App.test.js",
+            "is_file": true,
+            "parent_id": 61
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 76,
+        "fields": {
+            "framework": "react-node",
+            "name": "index.css",
+            "is_file": true,
+            "parent_id": 61
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 77,
+        "fields": {
+            "framework": "react-node",
+            "name": "index.js",
+            "is_file": true,
+            "parent_id": 61
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 78,
+        "fields": {
+            "framework": "react-node",
+            "name": "logo.svg",
+            "is_file": true,
+            "parent_id": 61
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 79,
+        "fields": {
+            "framework": "react-node",
+            "name": "serviceWorker.js",
+            "is_file": true,
+            "parent_id": 61
+        }
+    },
+    {
+        "model": "django_structure.File",
+        "pk": 80,
+        "fields": {
+            "framework": "react-node",
+            "name": "setupTests.js",
+            "is_file": true,
+            "parent_id": 61
+        }
+    }
+]

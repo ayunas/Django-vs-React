@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="{% static 'media/favicon.ico' %}" />
+    <title>Django vs React/Node</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" >
+    <script async type="text/javascript" src="{% static 'javascript/index.js' %}"></script>
+</head>
+<body>
+    <main>
+        <h1>Django VS React/Node</h1>
+        <h3>Choose your framework</h3>
+
+        <div id="choices">
+            <section class="framework">
+                <!-- <img src="{{ MEDIA_URL }}django-logo-negative.png" alt="django" > -->
+                <!-- "{% static '/media/react_node_logo_png' %}" -->
+                <!-- <img src="smiley.gif" alt="Smiley face" height="42" width="42"> -->
+                <button>
+                    <a href="/django">
+                        <img src="{% static 'media/django-logo-negative.png' %}" alt="django" width=200 height=100>
+                    </a>
+                </button>
+
+            </section>
+
+            <section class="framework">
+                <!-- <img src="{{ MEDIA_URL }}react_node_logo_png" alt="react/node" > -->
+                <!-- <img src="{% static 'media/react_node_logo_png' %}" alt="react/node" > -->
+                <!-- <img src="../static/media/react_node_logo_png" alt="react/node" > -->
+                <button>
+                    <a href="/react">
+                        <img src="{% static 'media/react_node_logo.png' %}" alt="react/node" width=150 height=100>
+                    </a>
+                </button>
+
+            </section>
+        </div>
+        {% block content %}
+        {% endblock %}
+
+        </section>
+    </main>
+</body>
+</html>
+
